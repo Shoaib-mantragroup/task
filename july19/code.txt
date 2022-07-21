@@ -1,0 +1,55 @@
+## How to write own configure file
+## rename
+
+sudo mv nginx.conf nginx.conf.backup
+sudo touch nginx.conf
+
+## validate and reload conf file
+
+sudo nginx -t
+sudo systemctl reload nginx
+sudo systemctl restart nginx
+
+## content type
+
+http{
+    types{
+        text/html html;
+        text/css css;
+    }
+}
+
+## include partial conf file
+
+include /etc/nginx/mime.types
+
+## location matching and modifiers
+= ---> exact matching
+~* ---> case insensitive 
+^~ ---> preferntial prefix matching
+
+## variables in nginx
+1. configuration variables
+2. module variables
+
+## rewrite and redirect 
+
+location = /index_page {
+   return 307 /index.html;
+}
+
+## above is redirected to index.html
+ 
+rewrite /about_page /about.html;
+
+## above for rewrite to about.html
+## using of try_files 
+## Logging in nginx
+1. access.log
+2. error.log
+
+## NGINX as reverse proxy
+
+location / {
+    proxy_pass "https://nginx.org/";
+}    

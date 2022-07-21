@@ -1,0 +1,20 @@
+# to install nginx
+sudo apt update
+sudo install nginx
+# to know status of nginx
+systemctl status nginx
+# to see configuration of nginx
+cd /etc/nginx
+ls -l 
+nano nginx.conf
+## to enable firewalls
+sudo ufw enable
+##when ever we made changes we need to restart/reload nginx
+systemctl restart nginx
+systemctl reload nginx
+systemctl status nginx
+## to see index page of nginx
+curl status
+## we learnt about web server and contexts
+  - events , http , access log , error log , worker connection , server , main
+## block and simple directives   

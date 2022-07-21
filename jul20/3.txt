@@ -1,0 +1,20 @@
+## we need to print i hate you when we match uri as iloveyou
+## for this we have to include extra location in server
+## as we need ot to change direct nginx.conf file
+## we also can in sites-available/default 
+## which is include in nginx.conf
+
+location = /iloveyou  {
+    default_type text/html;
+    return 200 "I HATE YOUUUU";
+}
+
+## we have included this in /etc/nginx/sites-available/default
+
+## whenever we type http://localhost:80
+ ## we get normal nginx page
+
+ ## whenever we type http://localhost:80/iloveyou
+## we can see I HATE YOUUUU
+
+
