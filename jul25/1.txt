@@ -1,0 +1,21 @@
+## Todays completion
+
+## about AWS
+## EBS(elastic block storage) and types
+1. volumes
+2.snapshot
+## Formating 
+Mountings
+1. temporary mounting 
+2. permanent mounting
+ 
+## about EC2
+.. creating instances 
+.. security groups
+.. key pairs
+.. requirements
+
+## about EBS(elastic load balances )
+1.Application load balances
+2.network load balances
+3.classic load balancess
