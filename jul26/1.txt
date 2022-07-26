@@ -1,0 +1,24 @@
+## todays completion
+
+## about ELB(elastic load balances)
+1.application load balances
+2.network load balances
+3.classis l b 
+
+## about cloud watch
+1. about metrices
+2.about events
+3.about logs
+
+## about EFS(amazon elastic file system)
+## about auto scaling
+## about s3 services
+1. bucket
+2. object
+
+## about RDS(relational data base)
+
+##about VPC(virtual private cloud)
+## understanding IP address and subnet scheme
+## about internet gateway
+## VPC NAT gateway
