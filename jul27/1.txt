@@ -1,0 +1,17 @@
+## Today's Completion
+
+## about VPC(virtual private cloud)
+## understanding ip addresses and subnet scheme
+## about VPC NAT Gateway
+## about internet Gateway
+## about elastic ip
+## route table
+## EC2 Logs
+
+## Refactoring/Rearchitecture with aws
+## PAAS/SAAS 
+## working with beanstack
+## autoscaling
+## elastic cache
+## route53
+## about cloud Front
