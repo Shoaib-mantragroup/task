@@ -1,0 +1,25 @@
+## today's completion
+
+## about command line interface
+## connecting instances to CLI
+.. ssh chmod 400....
+... ssh -i .....
+
+## connecting s3 bucket to CLI
+.. aws --version
+..aws configure
+..aws s3 ls 
+..aws s3 ls bucketname
+..aws s3 mb s3://bucketname
+..aws s3 cp localpath s3://bucketname
+..aws s3 rm bucketname/file
+..aws s3 rb bucketname
+
+## about vpc
+..create vpc
+..created subsets
+..created internetgateway and natgateway
+..created routes table
+connected piblic subnet to route and private to natgateway
+
+## about peering vpc
