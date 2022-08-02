@@ -1,0 +1,22 @@
+## Today's completion
+.. about gihub actions
+.. piping github to s3 using github actions
+
+## learnt about yaml files
+..key-value pair
+..comments
+..lists
+..boolean
+..multi line string 
+..single line string
+
+## about loadbalancing
+..load balancing to two ec2 instances using security groups
+
+## Syncing bucket to local folders
+.. by using aws s3 sync command
+
+## about aws s3 code commit
+..created repository in codecommit
+..added code in repository
+..changing using cloud9
