@@ -1,0 +1,20 @@
+## Today i have completed
+
+## about code commit
+.. codecommit is also used as github action
+.. using pipelines
+.. using pipelines we can deploy code from git into S3 bucket
+..learnt some about s3 policy
+.. and also making bucket public hosting
+
+## about autoscaling
+1.using AMI
+2.using templates
+..creating autoscaling groups using both AMI and launch templates
+
+## About ECS(elastic container service)
+..used as docker management
+..about cluster
+
+##About ECR(elastic container registry)
+..used to store repo in aws
